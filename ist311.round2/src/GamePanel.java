@@ -1,3 +1,6 @@
+import java.awt.Event;
+import java.awt.Image;
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class GamePanel extends JPanel {
@@ -14,38 +17,26 @@ public class GamePanel extends JPanel {
 
   public Integer difficulty;
 
-    public Vector  myCharacter;
-    public Vector  myMainPanel;
-    public Vector  myEnemyList;
-    public Vector  myEnemyList;
-    public Vector  myEnemyList;
-    public Vector  myEnemyList;
-    public Vector  Implements;
-    public Vector  Implements;
-    public Vector  myjavax.swing.Timer;
-    public Vector  myPowerUp;
-    public Vector  myPowerUp;
-    public Vector  myKeyboardListener;
 
   public void SetBackground(Integer BackgroundImageNumber) {
   }
 
-  public KeyPressed(Event e) {
+  public void KeyPressed(Event e) {
   }
 
-  public KeyReleased( e: Event) {
+  public void KeyReleased(Event e) {
   }
 
-  public KeyTyped ( e: Event) {
+  public void KeyTyped (Event e) {
   }
 
   public GamePanel(Character Player, Integer Difficulty, Integer BackgroundImageNum) {
   }
 
-  public SetSpeed(Integer Speed) {
+  public void SetSpeed(Integer Speed) {
   }
 
-  public ActionPerformed( e : EventAction) {
+  public void ActionPerformed(Event  e) {
   }
 
 }
