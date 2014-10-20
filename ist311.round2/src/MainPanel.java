@@ -1,42 +1,28 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Toolkit;
 import java.util.Vector;
+import javax.swing.JPanel;
 
 public class MainPanel extends JPanel {
+    Character test = new Character();
+    Image myImage;
+    public MainPanel(){
+        myImage = test.characterImg;
+        setSize(100,100);
+    }
+    
+    public void paintComponent(Graphics g) 
+	{
+    	super.paintComponent(g); 
+    	
+    	g.drawImage(myImage, 0, 0, this);    	
+        //g.fillRect(100,20,70,80);
+        g.setColor(Color.yellow);
+        //g.drawString("text on a Panel", 100,150);
 
-  public CharacterSelectionPanel CSP;
+    }
 
-  public GamePanel gamePanel;
-
-  public BackgroundSelection BSP;
-
-  public DifficultyStartPanel DSP;
-
-  public Character Player;
-
-  public Integer BackGroundSelection;
-
-  public Integer difficulty;
-
-    public Vector  myGamePanel;
-    public Vector  myCharacterSelectionPanel;
-    public Vector  myCharacterSelectionPanel;
-    public Vector  myBackgroundSelection;
-    public Vector  myDifficultyStartPanel;
-    public Vector  myDifficultyStartPanel;
-    public Vector  myMainFrame;
-    public Vector  myMainFrame;
-    public Vector  myMainFrame;
-    public Vector  myBackgroundSelection;
-    public Vector  myBackgroundSelection;
-    public Vector  Implements;
-    public Vector  myStateListener;
-
-  public void ActionPerformed(ActionEvent AE) {
-  }
-
-  public LoadPanel( Panel : Object) {
-  }
-
-  public StateChanged( e : ChangeEvent) {
-  }
-
+  
 }

@@ -1,4 +1,4 @@
-import java.util.Vector;
+/*import java.util.Vector;
 
 public class EnemyList extends Java.Util.List {
 
@@ -12,3 +12,4 @@ public class EnemyList extends Java.Util.List {
     public Vector  myEnemy;
 
 }
+**/

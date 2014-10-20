@@ -1,4 +1,4 @@
-import java.util.Vector;
+/*
 
 public class PowerUp {
 
@@ -16,4 +16,5 @@ public class PowerUp {
   public PowerUp(GamePanel GP) {
   }
 
-}
+}]
+**/

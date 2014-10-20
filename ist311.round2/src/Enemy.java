@@ -1,25 +1,14 @@
-import java.util.Vector;
 
-public class Enemy {
 
-  public Integer HomeRow;
+public class Enemy extends Character {
+    public Enemy(){
+        super();
+        ChangeImage("images/car.png", 150, 100);
+        
+    }
+    
+    
+    
 
-  public Integer xPosition;
-
-  public Integer yPosition;
-
-  public Bit Direction;
-
-    public Vector  myEnemyList;
-    public Vector  myEnemyList;
-
-  public void Move() {
-  }
-
-  public void ChangeDirection() {
-  }
-
-  public SetSpeed(ispeed : int)() {
-  }
 
 }
